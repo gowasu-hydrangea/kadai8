@@ -68,16 +68,25 @@ footer {
 @media screen and (max-width: 425px) {
   header {
     widows: 100%;
+    height: 50px;
   }
 }
 
   main {
     widows: 100%;
     display: block;
+    justfy-content: center;
   }
   
   .step-box {
-    widows: 100%;
+    width: 90%;
   }
+  
+  .step-img1 {
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-position: bottom;
+  background-size: cover;
+}
   
   
